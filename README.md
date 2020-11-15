@@ -2,7 +2,13 @@
 
 [![GoDoc](https://godoc.org/github.com/ericchiang/css?status.svg)](https://godoc.org/github.com/ericchiang/css)
 
-This package implements a CSS selector compiler for Go's HTML parsing package [`golang.org/x/net/html`](https://godoc.org/golang.org/x/net/html).
+This package implements a CSS selector compiler for Go's HTML parsing package [`golang.org/x/net/html`](https://godoc.org/golang.org/x/net/html). It's a fork from github.com/ericchiang/css with 2 additional patches to prevent crashes and allow more selectors. Add to modules with:
+
+```
+go get github.com/psilva261/css@v0.1.0
+```
+
+Example:
 
 ```go
 package main
