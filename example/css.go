@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ericchiang/css"
+	"github.com/psilva261/css"
 	"golang.org/x/net/html"
 )
 
